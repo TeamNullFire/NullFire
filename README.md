@@ -6,7 +6,7 @@ Discord: https://dsc.gg/nullhub
 
 
 script:
-not released
+TEST RELEASED (DOORS)
 
 website:
 https://nullhub.pages.dev/
