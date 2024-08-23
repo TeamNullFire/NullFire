@@ -1,4 +1,4 @@
-if game.Players.LocalPlayer.Name == "eshaanopn" then
+if game.Players.LocalPlayer.Name == "" then
   task.spawn(function()
   	pcall(function()
   		task.wait(math.random(200, 300))
