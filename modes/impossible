@@ -1,1 +1,3 @@
+--thx mr cool
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/PixelMeta/glitch-mode-v2/main/source.lua"))()
