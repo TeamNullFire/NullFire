@@ -1,12 +1,12 @@
-# NullHub
+# NullFire
 hi 🦐
 
 
-Discord: https://dsc.gg/nullhub
+Discord: https://dsc.gg/nullfire
 
 
 script:
 NOT RELEASED
 
 website:
-https://nullhub.pages.dev/
+https://nullfire.pages.dev/
