@@ -1,6 +1,7 @@
 --hi
 
 local rep = "https://raw.githubusercontent.com/coolegang/NullHub/main/Games/"
+lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Fire-Hub/main/Core/UI-Library"))()
 
 if game.PlaceId == 6839171747 then
     loadstring(game:HttpGet(rep.."Doors.lua"))()
