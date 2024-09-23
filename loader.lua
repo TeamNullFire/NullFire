@@ -1,4 +1,4 @@
---hi
+--[[hi
 
 local rep = "https://raw.githubusercontent.com/NuIlFire/NullFire/main/Games/"
 
@@ -10,3 +10,4 @@ elseif game.PlaceId == 12552538292 then
 else
     game.Players.LocalPlayer:Kick('Game is not added yet! Wait for balz')
 end
+]]
