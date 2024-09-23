@@ -11,4 +11,4 @@ NOT RELEASED
 website:
 https://nullfire.pages.dev/
 
-||make jiggle ballz script, i did something >:(||
+# make jiggle ballz script, i did something >:(
