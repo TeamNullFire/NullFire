@@ -1,9 +1,9 @@
 # How To Use
 
 1. On a video, copy the link and get the mp3 and mp4 (Important)
-2. Open Parser.exe
+2. Open Parser.exe (in [announcements](https://discord.com/channels/1289878746463207424/1289878746811203624) in the [discord](https://dsc.gg/nullfire))
 3. Put the mp4 in it to get a json file (DO NOT MAKE THE WIDTH HIGHER THAN THE HEIGHT, THIS IS NOT MADE FOR SHORTS)
-4. If the json file is over 1gb then skip some frames
+4. If the result.json file is over 1gb then skip some frames
 5. Run the script at least once to get the folders
 6. You'll get 1 preview just to show a demo
 7. In the "frames" Folder in Nullfire/VideoPlayer, put the json file in it
