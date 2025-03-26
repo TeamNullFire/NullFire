@@ -1,7 +1,7 @@
 # How To Use
 
 1. On a video, copy the link and get the mp3 and mp4 (Important)
-2. Open [not leaking yet]
+2. Open Parser.exe
 3. Put the mp4 in it to get a json file (DO NOT MAKE THE WIDTH HIGHER THAN THE HEIGHT, THIS IS NOT MADE FOR SHORTS)
 4. If the json file is over 1gb then skip some frames
 5. Run the script at least once to get the folders
