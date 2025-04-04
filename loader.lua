@@ -11,13 +11,21 @@ local s, e = pcall(function()
 })
 end)
 
+local found = false
+
 if s then
     local data = e.Body
     local dfnasdb = game:GetService("HttpService"):JsonDecode(data)
 
     for i,v in dfnasdb do
         if v.GameId == game.GameId then
+            found = true
             loadstring(game:HttpGet(rep..i..".lua"))()
         end
     end
+    if not found then
+        warn("game probably not supported yet")
+    end
+else
+    warn("failed to get supported data "..e)
 end
