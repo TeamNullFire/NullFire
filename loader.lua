@@ -15,7 +15,7 @@ local found = false
 
 if s then
     local data = e.Body
-    local dfnasdb = game:GetService("HttpService"):JsonDecode(data)
+    local dfnasdb = game:GetService("HttpService"):JSONDecode(data)
 
     for i,v in dfnasdb do
         if v.GameId == game.GameId then
