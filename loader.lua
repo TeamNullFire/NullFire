@@ -21,6 +21,7 @@ if s then
         if v.GameId == game.GameId then
             found = true
             loadstring(game:HttpGet(rep..i..".lua"))()
+            break
         end
     end
     if not found then
