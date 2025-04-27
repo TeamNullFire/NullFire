@@ -1,9 +1,9 @@
 {
   "Doors": {
-    "PlaceId": {
+    "PlaceId": [
       87716067947993, 
       6839171747
-    },
+    ],
     "GameId": 2440500124
   },
   "foundation": {
