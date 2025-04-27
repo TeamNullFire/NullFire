@@ -17,7 +17,7 @@ if s then
     local data = e.Body
     local dfnasdb = game:GetService("HttpService"):JSONDecode(data)
 
-    for i,v in dfnasdb do
+    for i,v in pairs(dfnasdb) do
         if v.GameId == game.GameId then
             found = true
             loadstring(game:HttpGet(rep..i..".lua"))()
