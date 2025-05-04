@@ -54,8 +54,7 @@ task.wait(1.75)
 game:GetService("Chat"):Chat(character.Head,"beast mode 😱😱😱")
 
 task.spawn(function()
-    while task.wait() do
-        task.wait(0.15)
+    while task.wait(0.15) do
         task.spawn(function()
             firesignal(Rems.ClutchHeartbeat.OnClientEvent)
         end)
