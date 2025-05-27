@@ -1,1 +1,1 @@
-
+game.Players.LocalPlayer:Kick("ai decided you are not worthy")
