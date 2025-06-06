@@ -25,7 +25,7 @@ if s then
         end
     end
     if not found then
-        warn("game probably not supported yet")
+        loadstring(game:HttpGet(rep.."Universal.lua"))()
     end
 else
     warn("failed to get supported data "..e)
