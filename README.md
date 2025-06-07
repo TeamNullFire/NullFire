@@ -10,4 +10,5 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/NuIlFire/NullFire/mai
 This repo only has obfuscated stuff
 
 Discord: https://dsc.gg/nullfire
+
 website: https://nullfire.pages.dev/
