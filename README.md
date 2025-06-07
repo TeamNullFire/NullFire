@@ -4,6 +4,10 @@ its a rebrand of nullhub / mshub revive (if anyone remembers)
 
 nullfire is a fusion between nullhub and firehub/firedoors
 
-Discord: https://dsc.gg/nullfire
+Here is the loadstring:
+loadstring(game:HttpGet("https://raw.githubusercontent.com/NuIlFire/NullFire/main/loader.lua"))()
 
+This repo only has obfuscated stuff
+
+Discord: https://dsc.gg/nullfire
 website: https://nullfire.pages.dev/
