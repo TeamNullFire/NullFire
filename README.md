@@ -1,11 +1,7 @@
 # NullFire
-hi 🦐
-
+nullfire is jsut a hobby project originally started by me seikoso!
+its a rebrand of nullhub / mshub revive (if anyone remembers)
 
 Discord: https://dsc.gg/nullfire
 
-
-script: RELEASED
-
-website:
-https://nullfire.pages.dev/
+website: https://nullfire.pages.dev/
