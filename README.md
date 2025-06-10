@@ -1,7 +1,7 @@
 # NullFire
 nullfire is just a hobby project originally started by me seikoso!
 its a rebrand of nullhub / mshub revive (if anyone remembers)
-
+hi from the second dev (Shrimper)
 nullfire is a fusion between nullhub and firehub/firedoors
 
 Here is the loadstring:
