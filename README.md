@@ -12,4 +12,7 @@ Discord: https://dsc.gg/nullfire
 
 website: https://nullfire.pages.dev/
 
-hi from the second dev (Shrimper)
+These are the current devs:
+Me aka seikoso
+Shrimper
+Cherry
