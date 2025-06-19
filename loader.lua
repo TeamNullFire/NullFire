@@ -1,10 +1,10 @@
 --hi
 
-local rep = "https://raw.githubusercontent.com/NuIlFire/NullFire/main/Games/"
+local rep = "https://raw.githubusercontent.com/TeamNullFire/NullFire/main/Games/"
 
 local s, e = pcall(function()
     return getgenv().request({
-        Url = "https://raw.githubusercontent.com/NuIlFire/NullFire/refs/heads/main/jhbfgs.json",
+        Url = "https://raw.githubusercontent.com/TeamNullFire/NullFire/refs/heads/main/jhbfgs.json",
         Method = "GET",
         Body = nil,
         Headers = {}
