@@ -1,3 +1,5 @@
+> **Note:** This project was previously hosted under the GitHub org `NuIlFire`. The organization has been renamed to `TeamNullFire` for clarity.
+
 # NullFire
 nullfire is just a hobby project originally started by me seikoso!
 its a rebrand of nullhub / mshub revive (if anyone remembers)
