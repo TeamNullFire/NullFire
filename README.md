@@ -14,8 +14,8 @@ website: https://nullfire.pages.dev/
 
 These are the current devs:
 
-Me aka seikoso
+- Me aka seikoso
 
-Shrimper
+- Shrimper
 
-Cherry
+- Cherry
