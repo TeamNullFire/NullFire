@@ -13,6 +13,6 @@ Discord: https://dsc.gg/nullfire
 website: https://nullfire.pages.dev/
 
 These are the current devs:
-- Me aka seikoso
+- seikoso
 - Shrimper
 - Cherry
