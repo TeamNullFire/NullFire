@@ -4,7 +4,7 @@ its a rebrand of nullhub / mshub revive (if anyone remembers)
 nullfire is a fusion between nullhub and firehub/firedoors
 
 Here is the loadstring:
-loadstring(game:HttpGet("https://raw.githubusercontent.com/NuIlFire/NullFire/main/loader.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TeamNullFire/NullFire/main/loader.lua"))()
 
 This repo only has obfuscated stuff
 
