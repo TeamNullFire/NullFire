@@ -18,3 +18,4 @@ These are the current devs:
 - seikoso
 - Shrimper
 - Cherry
+- Air
