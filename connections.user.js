@@ -17,6 +17,8 @@
                 return match[0] === match[0].toUpperCase() ? 'Friends' : 'friends';
             }).replace(/\bconnect\b/gi, match => {
                 return match[0] === match[0].toUpperCase() ? 'Friend' : 'friend';
+            }).replace(/\bconnection\b/gi, match => {
+                return match[0] === match[0].toUpperCase() ? 'Friend' : 'friend';
             });
         } else {
             for (let child of node.childNodes) {
