@@ -6,6 +6,7 @@
 // @version     1.0
 // @author      seikoso
 // @description 18/07/2025, 15:10:26
+// @updateURL    https://github.com/TeamNullFire/NullFire/raw/refs/heads/main/connections.user.js
 // ==/UserScript==
 
 (function() {
