@@ -1,12 +1,98 @@
-{
-  "Doors": "BETA; Working",
-  "The Foundation": "BETA; Working",
-  "Forsaken": "BETA; Working",
-  "Ink Game": "BETA; Working",
-  "Funky Friday": "Working",
-  "Dead Rails": "Working",
-  "Pressure": "Not working, pending update",
-  "Natural Disaster Survival": "Working",
-  "Hide or Die": "BETA; Working",
-  "Universal": "BETA; Working"
-}
+[
+  {
+    "name": "Universal",
+    "working": true,
+    "scriptRepo": "seikoso",
+    "scriptId": "Universal.lua",
+    "gameId": null,
+    "placeIds": []
+  },
+  {
+    "name": "Doors",
+    "working": true,
+    "scriptRepo": "seikoso",
+    "scriptId": "Doors.lua",
+    "gameId": 2440500124,
+    "placeIds": [6839171747, 87716067947993]
+  },
+  {
+    "name": "The Foundation",
+    "working": true,
+    "scriptRepo": "seikoso",
+    "scriptId": "foundation.lua",
+    "gameId": 6165840924,
+    "placeIds": []
+  },
+  {
+    "name": "Forsaken",
+    "working": true,
+    "scriptRepo": "seikoso",
+    "scriptId": "Forsaken.lua",
+    "gameId": 6331902150,
+    "placeIds": [18687417158]
+  },
+  {
+    "name": "Ink Game",
+    "working": true,
+    "scriptRepo": "seikoso",
+    "scriptId": "inkgame.lua",
+    "gameId": 7008097940,
+    "placeIds": []
+  },
+  {
+    "name": "Nico's Nextbots",
+    "working": true,
+    "scriptRepo": "seikoso",
+    "scriptId": "NekosSexbots.lua",
+    "gameId": 3717264063,
+    "placeIds": [10118559731, 12135007762]
+  },
+  {
+    "name": "Funky Friday",
+    "working": true,
+    "scriptRepo": "cherry",
+    "scriptId": "Funky-Friday/Main.lua",
+    "gameId": 2404080894,
+    "placeIds": [6447798030]
+  },
+  {
+    "name": "Dead Rails",
+    "working": true,
+    "scriptRepo": "cherry",
+    "scriptId": "Dead-Rails/Main.lua",
+    "gameId": 7018190066,
+    "placeIds": [70876832253163, 116495829188952]
+  },
+  {
+    "name": "Pressure (Lobby)",
+    "working": true,
+    "scriptRepo": "cherry",
+    "scriptId": "Pressure-Lobby/Main.lua",
+    "gameId": null,
+    "placeIds": [12411473842]
+  },
+  {
+    "name": "Pressure",
+    "working": false,
+    "scriptRepo": "cherry",
+    "scriptId": "Pressure/Main.lua",
+    "gameId": null,
+    "placeIds": [12552538292, 17355897213, 124505452456262]
+  },
+  {
+    "name": "Natural Disaster Survival",
+    "working": true,
+    "scriptRepo": "cherry",
+    "scriptId": "NDS/Main.lua",
+    "gameId": 65241,
+    "placeIds": [189707]
+  },
+  {
+    "name": "Hide or Die",
+    "working": true,
+    "scriptRepo": "cherry",
+    "scriptId": "Hide-or-Die/Main.lua",
+    "gameId": 6369934270,
+    "placeIds": [18799085098]
+  }
+]
