@@ -1,1 +1,55 @@
-local v0="https://raw.githubusercontent.com/TeamNullFire/NullFire/";local v1=v0   .. "main/Games/" ;local v2,v3=pcall(function() return getgenv().request({Url=v0   .. "refs/heads/main/jhbfgs.json" ,Method="GET",Body=nil,Headers={}});end);local v4,v5=pcall(function() return getgenv().request({Url="https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Core/Data/SupportedGames.json",Method="GET",Body=nil,Headers={}});end);local v6={_thingui=Instance.new("ScreenGui"),_Frame=Instance.new("Frame"),_UIStroke=Instance.new("UIStroke"),_keyinput=Instance.new("TextBox"),_UICorner=Instance.new("UICorner"),_UIStroke1=Instance.new("UIStroke"),_verifykey=Instance.new("TextButton"),_UIStroke2=Instance.new("UIStroke"),_UICorner1=Instance.new("UICorner"),_TextLabel=Instance.new("TextLabel"),_UIStroke3=Instance.new("UIStroke")};v6['_thingui'].ZIndexBehavior=Enum.ZIndexBehavior.Sibling;v6['_thingui'].Name="thingui";v6['_thingui'].Parent=game:GetService("CoreGui");v6['_Frame'].BackgroundColor3=Color3.fromRGB(72.00000455975533 -21 ,706.0000001769513 -(376 + 325) ,125.00000301003456 -48 );v6['_Frame'].BorderColor3=Color3.fromRGB(1065 -(68 + 997) ,1270 -(226 + 1044) ,0 -0 );v6['_Frame'].BorderSizePixel=117 -(32 + 85) ;v6['_Frame'].Position=UDim2.new(0.271215647,0 + 0 ,0.287688434 + 0 ,957 -(892 + 65) );v6['_Frame'].Size=UDim2.new(0.45694086 -0 ,0 -0 ,0.423366845 + 0 ,1180 -(1123 + 57) );v6['_Frame'].Parent=v6['_thingui'];v6['_UIStroke'].Color=Color3.fromRGB(314.0000050663948 -144 ,339.0000025331974 -(163 + 91) ,467 -212 );v6['_UIStroke'].Parent=v6['_Frame'];v6['_keyinput'].CursorPosition= -(1 + 0);v6['_keyinput'].Font=Enum.Font.RobotoMono;v6['_keyinput'].PlaceholderColor3=Color3.fromRGB(481.00000739097595 -(87 + 263) ,247.000003606081 -(67 + 113) ,146.00001853704453 + 53 );v6['_keyinput'].PlaceholderText="Input age";v6['_keyinput'].Text="";v6['_keyinput'].TextColor3=Color3.fromRGB(23.00000548362732 + 140 ,213.0000024139881 -126 ,188 + 67 );v6['_keyinput'].TextScaled=true;v6['_keyinput'].TextSize=19 -5 ;v6['_keyinput'].TextWrapped=true;v6['_keyinput'].BackgroundColor3=Color3.fromRGB(385.0000094175339 -288 ,1003.0000045597553 -(802 + 150) ,403.0000062584877 -253 );v6['_keyinput'].BorderColor3=Color3.fromRGB(0 -0 ,718 -(15 + 703) ,0 + 0 );v6['_keyinput'].BorderSizePixel=997 -(915 + 82) ;v6['_keyinput'].Position=UDim2.new(0.0941453725 -0 ,0 + 0 ,0.364985168,0 -0 );v6['_keyinput'].Size=UDim2.new(0.809000015 -0 ,1187 -(1069 + 118) ,0.145608291,1206 -(696 + 510) );v6['_keyinput'].Name="keyinput";v6['_keyinput'].Parent=v6['_Frame'];v6['_UICorner'].CornerRadius=UDim.new(0.200000003,0 -0 );v6['_UICorner'].Parent=v6['_keyinput'];v6['_UIStroke1'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border;v6['_UIStroke1'].Color=Color3.fromRGB(1432.0000050663948 -(1091 + 171) ,185.0000025331974 -100 ,45 + 210 );v6['_UIStroke1'].Parent=v6['_keyinput'];v6['_verifykey'].Font=Enum.Font.RobotoMono;v6['_verifykey'].Text="Confirm age";v6['_verifykey'].TextColor3=Color3.fromRGB(0,0 -0 ,0 -0 );v6['_verifykey'].TextScaled=true;v6['_verifykey'].TextSize=388 -(123 + 251) ;v6['_verifykey'].TextWrapped=true;v6['_verifykey'].BackgroundColor3=Color3.fromRGB(129.0000074505806 + 1 ,858.000003606081 -(368 + 423) ,896.0000033974648 -(208 + 490) );v6['_verifykey'].BorderColor3=Color3.fromRGB(0 -0 ,18 -(10 + 8) ,0 -0 );v6['_verifykey'].BorderSizePixel=0;v6['_verifykey'].Position=UDim2.new(442.0941453651 -(416 + 26) ,0 -0 ,0.621836841 + 0 ,0 -0 );v6['_verifykey'].Size=UDim2.new(438.809786916 -(145 + 293) ,430 -(44 + 386) ,0.154510379,0 + 0 );v6['_verifykey'].Name="verifykey";v6['_verifykey'].Parent=v6['_Frame'];v6['_UIStroke2'].ApplyStrokeMode=Enum.ApplyStrokeMode.Border;v6['_UIStroke2'].Color=Color3.fromRGB(1656.0000050663948 -(998 + 488) ,28.000002533197403 + 57 ,255);v6['_UIStroke2'].Parent=v6['_verifykey'];v6['_UICorner1'].CornerRadius=UDim.new(0.200000003 + 0 ,0 -0 );v6['_UICorner1'].Parent=v6['_verifykey'];v6['_TextLabel'].Font=Enum.Font.SourceSans;v6['_TextLabel'].Text="What is your age";v6['_TextLabel'].TextColor3=Color3.fromRGB(940.0000051856041 -(201 + 571) ,1155.000000886619 -(116 + 1022) ,715 -460 );v6['_TextLabel'].TextScaled=true;v6['_TextLabel'].TextSize=58 -44 ;v6['_TextLabel'].TextWrapped=true;v6['_TextLabel'].BackgroundColor3=Color3.fromRGB(163 + 92 ,150 + 105 ,930 -675 );v6['_TextLabel'].BackgroundTransparency=3 -2 ;v6['_TextLabel'].BorderColor3=Color3.fromRGB(0 + 0 ,859 -(814 + 45) ,0 -0 );v6['_TextLabel'].BorderSizePixel=0 + 0 ;v6['_TextLabel'].Position=UDim2.new(0.229107335 + 0 ,0 -0 ,885.0474777445 -(261 + 624) ,0 -0 );v6['_TextLabel'].Size=UDim2.new(0.540379703,0 -0 ,1080.219584569 -(1020 + 60) ,0 -0 );v6['_TextLabel'].Parent=v6['_Frame'];v6['_UIStroke3'].Thickness=1427.8000001907349 -(630 + 793) ;v6['_UIStroke3'].Parent=v6['_TextLabel'];v6['_keyinput']:GetPropertyChangedSignal("Text"):Connect(function() local v90=0 -0 ;local v91;while true do if (v90==(0 -0)) then v91=v6['_keyinput'].Text:gsub("[^0-9]","");if (v6['_keyinput'].Text~=v91) then v6['_keyinput'].Text=v91;end break;end end end);local v81=game.Players.LocalPlayer;local function v82(v92) local v93=0 + 0 ;while true do if (v93==(3 -2)) then pcall(function() game.StarterGui:SetCore("SendNotification",{Title="NullFire expirienced an error while loading",Text="error: "   .. tostring(v92) ,Duration=1993 -(582 + 1408) });end);break;end if (v93==(1747 -(760 + 987))) then v81:Kick("error :( | "   .. tostring(v92) );pcall(function() local v99=1913 -(1789 + 124) ;while true do if (v99==(766 -(745 + 21))) then v81.Character:Destroy();v81:Destroy();break;end end end);v93=1 -0 ;end end end local v83=false;local v84=false;v6['_verifykey'].Activated:Connect(function() if ((v6['_keyinput'].Text=="") or  not tonumber(v6['_keyinput'].Text)) then return;end if (tonumber(v6['_keyinput'].Text)<(6 + 10)) then pcall(writefile,"damn.null","no");v83=true;return v82("no");else local v98=0 -0 ;while true do if (v98==1) then v6['_thingui']:Destroy();break;end if (v98==(0 -0)) then pcall(writefile,"yes.null","ye");v84=true;v98=1 + 0 ;end end end end);local v85,v86=pcall(isfile,"damn.null");if (v85 and v86) then local v94=0 + 0 ;while true do if (v94==(1055 -(87 + 968))) then v83=true;return v82("no");end end end local v87,v88=pcall(isfile,"yes.null");if (v87 and v88) then v84=true;v6['_thingui']:Destroy();end repeat task.wait();until v84 or v83  if v83 then return v82("no");end local v89=false;if v2 then local v95=0 + 0 ;local v96;local v97;while true do if (v95==(8 -6)) then if (v4 and  not v89) then local v105=0 + 0 ;local v106;while true do if (v105==(0 -0)) then v106=game.HttpService:JSONDecode(v5.Body);for v107,v108 in v106 do if ((typeof(v108)=="table") and table.find(v108,game.PlaceId)) then v89=true;loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))();break;end end break;end end elseif  not v4 then warn("failed to get cherry's supported data");end if  not v89 then loadstring(game:HttpGet(v1   .. "Universal.lua" ))();end break;end if (v95==(0 -0)) then v96=v3.Body;v97=game:GetService("HttpService"):JSONDecode(v96);v95=1414 -(447 + 966) ;end if (v95==(2 -1)) then shared.dfnasdb=v97;for v103,v104 in pairs(v97) do if (v104.GameId==game.GameId) then v89=true;loadstring(game:HttpGet(v1   .. v103   .. ".lua" ))();break;end end v95=2;end end else warn("failed to get supported data "   .. v3 );end
+--hi
+
+local bottom = "https://raw.githubusercontent.com/TeamNullFire/NullFire/"
+local rep = bottom.."main/Games/"
+
+local s, e = pcall(function()
+	return getgenv().request({
+		Url = bottom.."refs/heads/main/jhbfgs.json",
+		Method = "GET",
+		Body = nil,
+		Headers = {}
+	})
+end)
+
+local suc,easd = pcall(function()
+	return getgenv().request({
+		Url = "https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Core/Data/SupportedGames.json",
+		Method = "GET",
+		Body = nil,
+		Headers = {}
+	})
+end)
+
+local found = false
+
+if s then
+	local data = e.Body
+	local dfnasdb = game:GetService("HttpService"):JSONDecode(data)
+	for i,v in pairs(dfnasdb) do
+		if v.GameId == game.GameId then
+			found = true
+			loadstring(game:HttpGet(rep..i..".lua"))()
+			break
+		end
+	end
+
+	if suc and not found then
+		local cherrydata = game.HttpService:JSONDecode(easd.Body)
+		for i,v in cherrydata do
+			if typeof(v) == "table" and table.find(v, game.PlaceId) then
+				found = true
+				loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))()
+				break
+			end
+		end
+	elseif not suc then
+		warn("failed to get cherry's supported data")
+	end
+
+	if not found then
+		loadstring(game:HttpGet(rep.."Universal.lua"))()
+	end
+else
+	warn("failed to get supported data "..e)
+end
