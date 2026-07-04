@@ -24,7 +24,10 @@ end)
 local found = false
 
 
-game.StarterGui:SetCore("SendNotification", {Title="By using you agree"; Text="https://script.nullfire.dev/privacy"; Duration=3;})
+if not isfile("saw.null") then
+	game.StarterGui:SetCore("SendNotification", {Title="By using you agree"; Text="https://script.nullfire.dev/privacy"; Duration=3;})
+	writefile("saw.null", "yep")
+end
 
 if s then
 	local data = e.Body
