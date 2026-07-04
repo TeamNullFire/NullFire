@@ -24,7 +24,7 @@ end)
 local found = false
 
 
-game.StarterGui:SetCore("SendNotification", {Title="By using you agree"; Text="https://nullfire.pages.dev/privacy"; Duration=3;})
+game.StarterGui:SetCore("SendNotification", {Title="By using you agree"; Text="https://script.nullfire.dev/privacy"; Duration=3;})
 
 if s then
 	local data = e.Body
