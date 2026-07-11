@@ -1,12 +1,16 @@
 if not game:IsLoaded() then
     repeat task.wait() until game:IsLoaded()
 end
+local queue = queue_on_teleport or queueonteleport
+local laodstring= [[
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TeamNullFire/NullFire/refs/heads/main/modes/d.lua"))()
+]]
 local LP = game:GetService("Players").LocalPlayer
 local room = workspace:WaitForChild("CurrentRooms", 9e9):WaitForChild("0", 9e9)
 
-local shopui = LP.PlayerGui:WaitForChild("MainUI", 9e9):FindFirstChild("ItemShop")
+local shopui = LP.PlayerGui:WaitForChild("MainUI", 9e9):WaitForChild("ItemShop", 10)
 local rems = game:GetService("ReplicatedStorage").RemotesFolder
-if not shopui or not shopui.Visible then rems.PlayAgain:FireServer(); return end
+if not shopui or not shopui.Visible then rems.PlayAgain:FireServer(); queue(laodstring); return end
 if shopui then shopui.Visible = false end
 
 local key: Model = room:WaitForChild("Assets", 9e9):WaitForChild("KeyObtain", 9e9)
@@ -37,8 +41,6 @@ end
 
 LP:GetAttributeChangedSignal("Alive"):Wait()
 
-local queue = queue_on_teleport or queueonteleport
+
 rems.PlayAgain:FireServer()
-queue([[
-loadstring(game:HttpGet("https://raw.githubusercontent.com/TeamNullFire/NullFire/refs/heads/main/modes/d.lua"))()
-]])
+queue(laodstring)
