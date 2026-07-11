@@ -10,6 +10,7 @@ local room = workspace:WaitForChild("CurrentRooms", 9e9):WaitForChild("0", 9e9)
 
 local shopui = LP.PlayerGui:WaitForChild("MainUI", 9e9):WaitForChild("ItemShop", 10)
 local rems = game:GetService("ReplicatedStorage").RemotesFolder
+repeat task.wait() until shopui.Visible
 if not shopui or not shopui.Visible then rems.PlayAgain:FireServer(); queue(laodstring); return end
 if shopui then shopui.Visible = false end
 
