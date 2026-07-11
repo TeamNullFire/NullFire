@@ -37,5 +37,5 @@ LP:GetAttributeChangedSignal("Alive"):Wait()
 local queue = queue_on_teleport or queueonteleport
 rems.PlayAgain:FireServer()
 queue([[
-loadstring(game:HttpGet("https://raw.githubusercontent.com/TeamNullFire/NullFire/refs/heads/main/modes/d.lua"))
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TeamNullFire/NullFire/refs/heads/main/modes/d.lua"))()
 ]])
