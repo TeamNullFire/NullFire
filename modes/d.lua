@@ -1,3 +1,6 @@
+if not game:IsLoaded() then
+    repeat task.wait until game:IsLoaded()
+end
 local LP = game:GetService("Players").LocalPlayer
 local room = workspace:WaitForChild("CurrentRooms", 9e9):WaitForChild("0", 9e9)
 
