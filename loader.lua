@@ -1,8 +1,4 @@
 --hi
-if not getgenv().oth then
-getgenv().oth ={}
-getgenv().oth.unhook = function() end
-end
 local bottom = "https://raw.githubusercontent.com/TeamNullFire/NullFire/"
 local rep = bottom.."main/Games/"
 
