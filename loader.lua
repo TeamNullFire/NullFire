@@ -21,11 +21,11 @@ local suc,easd = pcall(function()
 end)
 
 local found = false
+local latest = 1791706871
 
-
-if not isfile("saw.null") then
+if not isfile("saw.null") or readfile("saw.null") == "yep" or tonumber(readfile("saw.null")) < latest then
 	game.StarterGui:SetCore("SendNotification", {Title="By using you agree"; Text="https://script.nullfire.dev/privacy"; Duration=3;})
-	writefile("saw.null", "yep")
+	writefile("saw.null", tostring(os.time()))
 end
 
 if s then
@@ -49,7 +49,7 @@ if s then
 			if typeof(v) == "table" and table.find(v, game.PlaceId) then
 				found = true
 				getgenv().FireHubLoaded = false
-				loadstring(game:HttpGet("https://raw.githubusercontent.com/InfernusScripts/Null-Fire/main/Loader"))()
+				loadstring(game:HttpGet("https://NullFire.pythonanywhere.com/script"))()
 				break
 			end
 		end
