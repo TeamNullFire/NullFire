@@ -21,10 +21,10 @@ local suc,easd = pcall(function()
 end)
 
 local found = false
-local latest = 1791706871
+local latest = 1794602708
 
 if not isfile("saw.null") or readfile("saw.null") == "yep" or tonumber(readfile("saw.null")) < latest then
-	game.StarterGui:SetCore("SendNotification", {Title="By using you agree"; Text="https://script.nullfire.dev/privacy"; Duration=3;})
+	game.StarterGui:SetCore("SendNotification", {Title="By using you agree"; Text="https://script.nullfire.dev/privacy | https://script.nullfire.dev/tos"; Duration=3;})
 	writefile("saw.null", tostring(os.time()))
 end
 
